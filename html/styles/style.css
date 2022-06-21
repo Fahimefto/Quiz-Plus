@@ -193,7 +193,7 @@ h4 {
   font-size: 12px;
 }
 
-.account > span:last-child {
+.account>span:last-child {
   cursor: pointer;
 }
 

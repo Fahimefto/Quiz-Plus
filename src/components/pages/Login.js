@@ -14,7 +14,7 @@ export default function Login() {
                 <Form className={`${classes.login} `} >
                     <TextInput type="text" placeholder="Enter email" icon="alternate_email" />
                     <TextInput type="password" placeholder="Enter password" icon="lock" />
-                    <Button>Login</Button>
+                    <Button><span>Login</span></Button>
                     <div className="info">
                         Dont have any account? <a href="signup.html">Register</a> an Account.
                     </div>
