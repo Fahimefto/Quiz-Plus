@@ -1,7 +1,7 @@
 
-import Course from "../Courses"
+import Courses from "../Courses"
 export default function Home() {
-    return <Course />;
+    return <Courses />;
 
 
 }

@@ -1,5 +1,5 @@
 import classes from "../styles/Course.module.css"
-import image from "../images/poster2.png"
+import image from "../images/mainPoster.png"
 export default function Course() {
     return (
         <a href="quiz.html">
