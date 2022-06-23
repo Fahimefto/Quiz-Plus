@@ -3,6 +3,7 @@ import Form from "../Form";
 import classes from "../../styles/Signup.module.css";
 import TextInput from "../Textinput";
 import Button from "../Button";
+import { Link } from 'react-router-dom';
 
 export default function Login() {
     return (
@@ -16,7 +17,7 @@ export default function Login() {
                     <TextInput type="password" placeholder="Enter password" icon="lock" />
                     <Button><span>Login</span></Button>
                     <div className="info">
-                        Dont have any account? <a href="signup.html">Register</a> an Account.
+                        Dont have any account? <Link to='/signup'>Register</Link> an Account.
                     </div>
                 </Form>
             </div>
