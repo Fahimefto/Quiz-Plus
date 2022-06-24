@@ -6,11 +6,13 @@ import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Quiz from './pages/Quiz';
 import Result from './pages/Result';
+import { AuthProvider } from '../context/AuthContext';
 
 
 function App() {
   return (
     <Router>
+
 
       <Layout>
         <Routes>
@@ -22,6 +24,7 @@ function App() {
 
         </Routes>
       </Layout>
+
     </Router >
 
   );
